@@ -5,17 +5,17 @@
   "mnemonic": "build life section blame clerk boy young fiber hundred exist episode fame",
   "STATUS_URL": "",
   "EndpointSchema": {
-    "name": "Add",
-    "curve": [1, 1, 1000], // 1 wei zap per dot
+    "name": "foreign exchange",
+    "curve": [1, 1, 1000],
     "broker": "",
     "md": "Adding description for your Oracle here",
     "queryList": [
       {
-        "query": "Addition",
-        "params": ["{append1}", "{append2}"],
-        "response": ["{sum}"],
+        "query": "foreign exchange",
+        "params": ["{currency1}", "{currency2}"],
+        "response": ["{rates}"],
         "dynamic": false,
-        "responseType": "[int]"
+        "responseType": "[String]"
       }
     ]
   }
