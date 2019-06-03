@@ -52,7 +52,7 @@ export async function getResponse(query: string, params: string[]) {
     return ['' + base, '' + ratesUSD, '' + ratesGBP, '' + date];
   } catch (error) {
     // If an error is encountered, returns an error message
-    console.log('error');
+    console.error(error.message);
     return ['0', 'Unable to access data'];
   }
 }
